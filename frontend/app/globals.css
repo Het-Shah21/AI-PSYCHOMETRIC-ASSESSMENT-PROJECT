@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0a0a1a;
+  --color-surface: #111128;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: #fff;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+
+/* Input focus reset */
+input:focus, textarea:focus, select:focus { outline: none; }
